@@ -39,7 +39,9 @@ public class Main {
          */
 
 //------------------------------------------------------------------------------------------------
-
+        //Exercise #3
+        Point zeroPoint = new Point();
+        zeroPoint.printState();
 
 
 
