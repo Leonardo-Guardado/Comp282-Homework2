@@ -14,5 +14,6 @@ public class Microwave extends Device {
         System.out.println("Max Coking Time: " + maxTime + " minutes");
 
     }
+//----------------------------------------------------------------------------------------------
 
 }
