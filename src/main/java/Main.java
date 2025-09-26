@@ -13,7 +13,16 @@ public class Main {
 
     public static void main(String[] args) {
         // --- Implement all exercises here ---
-        System.out.println("Hello World!");
+
+        //Exercise #1
+        Point startPoint;
+        startPoint = new Point(10,20);     //Instantiating and Initializing startPoint
+        System.out.println(startPoint.x);        //Printing startPoint x value
+
+        startPoint.move(5,-3);      //Using Point move method
+        startPoint.printState();                 //Using Point printState method
+
+
 
     }
 
