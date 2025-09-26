@@ -45,7 +45,7 @@ public class Main {
         System.out.println();
 
 //------------------------------------------------------------------------------------------------
-        //Exercise #4
+        //Exercise #4 and 6
         Device wattson = new Microwave(500,200);  //Implicit Casting (Upcasting)
         wattson.printDescription();
         System.out.println();
