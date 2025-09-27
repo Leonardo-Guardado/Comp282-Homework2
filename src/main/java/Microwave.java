@@ -11,7 +11,7 @@ public class Microwave extends Device {
     @Override  //Ensures method exists in super class
     public void printDescription(){ //Overridden printDescription method from super class
         super.printDescription();
-        System.out.println("Max Coking Time: " + maxTime + " minutes");
+        System.out.println("Max Cooking Time: " + maxTime + " minutes");
 
     }
 //----------------------------------------------------------------------------------------------
