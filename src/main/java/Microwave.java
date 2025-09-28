@@ -1,4 +1,4 @@
-public class Microwave extends Device {
+public class Microwave extends Device {   //Exercise #4
     public int maxTime;
 
     public Microwave(int startPower, int maxCookingTime){
@@ -15,5 +15,8 @@ public class Microwave extends Device {
 
     }
 //----------------------------------------------------------------------------------------------
-
+    // Exercise #8
+    public void heatFood(){
+        System.out.println("Food is heating");
+    }
 }
