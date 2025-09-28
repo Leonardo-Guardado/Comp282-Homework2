@@ -54,12 +54,12 @@ public class Main {
 //-----------------------------------------------------------------------------------------------
         //Exercise #5
         System.out.println("Exercise 5");
-        int s1 = sumCoordinates(new Point(10,20), new Point(5,7), new Point(0,1));
+        int s1 = sumCoordinates(new Point(10,20), new Point(5,7), new Point(0,1));  //Sequence of points
         System.out.println("Sum of x-coordinates in first array: " + s1);
 
         Point[] points = {
                 new Point(3,4),
-                new Point(12,20),
+                new Point(12,20),              //Predefined array
                 new Point(100,101)
         };
         int s2 = sumCoordinates(points);
@@ -90,7 +90,7 @@ public class Main {
         //Exercise #8
         System.out.println("Exercise 8");
         if (polyDevice instanceof Microwave) {
-            Microwave polyDevice2 = (Microwave)polyDevice;
+            Microwave polyDevice2 = (Microwave)polyDevice;        //Downcasting polyDevice to polyDevice2
             polyDevice2.heatFood();
         }
 
