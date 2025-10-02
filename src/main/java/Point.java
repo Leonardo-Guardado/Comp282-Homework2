@@ -10,9 +10,9 @@ public class Point {
     }
 
     //One-argument constructor
-    public Point(int x){
-        this.x = x;
-        this.y = x;
+    public Point(int size){
+        this.x = size;
+        this.y = size;
     }
     //------------------------------------------------------------
 
